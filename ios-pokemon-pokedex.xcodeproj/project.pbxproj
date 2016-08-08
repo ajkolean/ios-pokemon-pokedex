@@ -16,6 +16,8 @@
 		84731B861D59172300174BD5 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84731B851D59172300174BD5 /* Pokemon.swift */; };
 		84731B891D591D9100174BD5 /* PokeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84731B881D591D9100174BD5 /* PokeCell.swift */; };
 		84731B8B1D59324300174BD5 /* csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84731B8A1D59324300174BD5 /* csv.swift */; };
+		84731B901D594B2600174BD5 /* Pokemon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84731B8F1D594B2600174BD5 /* Pokemon.ttf */; };
+		84731B921D594DD100174BD5 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84731B911D594DD100174BD5 /* music.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		84731B851D59172300174BD5 /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 		84731B881D591D9100174BD5 /* PokeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokeCell.swift; sourceTree = "<group>"; };
 		84731B8A1D59324300174BD5 /* csv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = csv.swift; sourceTree = "<group>"; };
+		84731B8F1D594B2600174BD5 /* Pokemon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pokemon.ttf; sourceTree = "<group>"; };
+		84731B911D594DD100174BD5 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,8 @@
 			isa = PBXGroup;
 			children = (
 				84731B821D5915D100174BD5 /* pokemon.csv */,
+				84731B911D594DD100174BD5 /* music.mp3 */,
+				84731B8F1D594B2600174BD5 /* Pokemon.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -175,6 +181,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				84731B7B1D59113800174BD5 /* LaunchScreen.storyboard in Resources */,
+				84731B901D594B2600174BD5 /* Pokemon.ttf in Resources */,
+				84731B921D594DD100174BD5 /* music.mp3 in Resources */,
 				84731B781D59113800174BD5 /* Assets.xcassets in Resources */,
 				84731B831D5915D100174BD5 /* pokemon.csv in Resources */,
 				84731B761D59113800174BD5 /* Main.storyboard in Resources */,
