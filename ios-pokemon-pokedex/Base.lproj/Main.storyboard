@@ -142,11 +142,41 @@
                     <connections>
                         <outlet property="collection" destination="1mt-vm-FDt" id="Lgu-Mc-kaM"/>
                         <outlet property="searchBar" destination="mMs-6k-6IW" id="DbT-zg-7cB"/>
+                        <segue destination="6je-R7-Sel" kind="show" identifier="PokemonDetailVC" id="unb-N5-gws"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="323" y="398"/>
+        </scene>
+        <!--Pokemon DetailVC-->
+        <scene sceneID="YcV-BM-BM4">
+            <objects>
+                <viewController id="6je-R7-Sel" customClass="PokemonDetailVC" customModule="ios_pokemon_pokedex" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wwn-46-PFj"/>
+                        <viewControllerLayoutGuide type="bottom" id="UGT-E3-zdU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4N4-N4-IdX">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h7g-vS-s3O">
+                                <rect key="frame" x="235" y="272" width="86" height="31"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="nameLbl" destination="h7g-vS-s3O" id="a9J-ho-aCo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ONy-JH-DfN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1009" y="401"/>
         </scene>
     </scenes>
     <resources>
