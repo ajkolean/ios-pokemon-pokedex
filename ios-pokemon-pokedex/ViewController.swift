@@ -61,9 +61,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
                 
             }
             filteredPokemon = pokemon
-            
-            print(rows)
-        } catch let err as NSError {
+                    } catch let err as NSError {
             print(err.debugDescription)
         }
     }
